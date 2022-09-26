@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".a7">
+
+
+    <TextView
+        android:id="@+id/Random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:text="Sadhana Bhakti"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/Random"
+
+
+        android:layout_marginTop="20dp"
+        android:background="#30300303"
+        android:padding="30dp"
+        android:text="How many rounds of japa you did before mangal aarti?"
+        android:textColor="@color/black"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/Username"
+
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/login"
+        android:backgroundTint="#808080"
+        android:hint="type here"
+        android:inputType="number"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Username"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/Password"
+        android:backgroundTint="#808080"
+        android:text="0"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/login"
+
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/Username"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#808080"
+        android:inputType="text"
+        android:text="next" />
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a30">
+
+    <TextView
+        android:id="@+id/Random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:text="Sadhana Bhakti"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Random"
+        android:layout_marginTop="20dp"
+        android:background="#30300303"
+        android:padding="30dp"
+        android:text="What percentage of income did you sacrifice for preaching mission?"
+        android:textColor="@color/black"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="73dp"
+        android:layout_height="41dp"
+
+        android:layout_below="@+id/Username"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="101dp"
+        android:backgroundTint="#808080"
+        android:inputType="text"
+        android:text="next" />
+
+    <Button
+        android:id="@+id/fifty"
+        android:layout_width="73dp"
+        android:layout_height="41dp"
+
+        android:layout_below="@+id/Username"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="101dp"
+        android:backgroundTint="#808080"
+        android:inputType="text"
+        android:text="50%" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/Username"
+
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="57dp"
+        android:layout_toStartOf="@+id/Login"
+        android:backgroundTint="#808080"
+        android:hint="type here"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
+
+</RelativeLayout>
