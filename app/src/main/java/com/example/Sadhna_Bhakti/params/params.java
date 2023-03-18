@@ -1,4 +1,4 @@
-package com.example.quizapp.params;
+package com.example.Sadhna_Bhakti.params;
 
 public class params {
     public static final int DB_VERSION = 1;
@@ -28,7 +28,6 @@ public class params {
     public static final String KEY_Ques18="Ques18";
     public static final String KEY_Ques19="Ques19";
     public static final String KEY_Ques20="Ques20";
-
     public static final String KEY_Ques22="Ques22";
     public static final String KEY_Ques23="Ques23";
     public static final String KEY_Ques24="Ques24";

@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package com.example.Sadhna_Bhakti;
 
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 import static android.os.Build.VERSION.SDK_INT;
@@ -28,12 +28,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 
-import com.example.quizapp.data.DbHandler;
-import com.example.quizapp.entry.row;
+import com.example.Sadhna_Bhakti.data.DbHandler;
+import com.example.Sadhna_Bhakti.entry.row;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -125,7 +124,6 @@ public class pdfviewer extends AppCompatActivity {
                         activity,
                         PERMISSION_STORAGE,
                         REQUEST_EXTERNAL_STORAGE);
-
                 // Abruptly we will ask for permission once the application is launched for sake demo.
                 Intent intent = new Intent();
                 intent.setAction(ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);

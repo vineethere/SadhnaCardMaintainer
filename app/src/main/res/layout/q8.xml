@@ -4,36 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="@color/white"
-
     tools:context=".a8">
+
 
 
     <TextView
         android:id="@+id/Random"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:padding="10dp"
+        android:layout_marginTop="25sp"
+        android:padding="10sp"
         android:text="Sadhana Bhakti"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/Username"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_below="@id/Random"
-
-
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="20sp"
         android:background="#30300303"
-        android:padding="30dp"
+        android:padding="30sp"
         android:text="What time you completed 16 rounds?"
         android:textColor="@color/black"
         android:textColorHint="#FFFFFF"
@@ -41,18 +36,29 @@
 
         android:textStyle="italic" />
 
-
     <Button
         android:id="@+id/Login"
-        android:layout_width="123dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Username"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="77sp"
         android:layout_toEndOf="@+id/tv_timer"
         android:backgroundTint="#808080"
         android:inputType="text"
         android:text="next" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login"
+        android:layout_alignStart="@+id/Login"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="31sp"
+        android:backgroundTint="#808080"
+        android:inputType="text"
+        android:text="no" />
 
     <Button
         android:id="@+id/tv_timer"
@@ -60,10 +66,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/Username"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="77sp"
         android:backgroundTint="#808080"
         android:hint="select time"
         android:inputType="text"
         android:text="select time" />
+
+
+
 </RelativeLayout>

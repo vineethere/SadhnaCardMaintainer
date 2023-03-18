@@ -1,38 +1,38 @@
 
-package com.example.quizapp.data;
+package com.example.Sadhna_Bhakti.data;
 
-import static com.example.quizapp.params.params.DB_NAME;
-import static com.example.quizapp.params.params.DB_VERSION;
-import static com.example.quizapp.params.params.KEY_DATE;
-import static com.example.quizapp.params.params.KEY_Ques10;
-import static com.example.quizapp.params.params.KEY_Ques11;
-import static com.example.quizapp.params.params.KEY_Ques12;
-import static com.example.quizapp.params.params.KEY_Ques13;
-import static com.example.quizapp.params.params.KEY_Ques14;
-import static com.example.quizapp.params.params.KEY_Ques15;
-import static com.example.quizapp.params.params.KEY_Ques16;
-import static com.example.quizapp.params.params.KEY_Ques17;
-import static com.example.quizapp.params.params.KEY_Ques18;
-import static com.example.quizapp.params.params.KEY_Ques19;
-import static com.example.quizapp.params.params.KEY_Ques2;
-import static com.example.quizapp.params.params.KEY_Ques20;
+import static com.example.Sadhna_Bhakti.params.params.DB_NAME;
+import static com.example.Sadhna_Bhakti.params.params.DB_VERSION;
+import static com.example.Sadhna_Bhakti.params.params.KEY_DATE;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques10;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques11;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques12;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques13;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques14;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques15;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques16;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques17;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques18;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques19;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques2;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques20;
 
-import static com.example.quizapp.params.params.KEY_Ques22;
-import static com.example.quizapp.params.params.KEY_Ques23;
-import static com.example.quizapp.params.params.KEY_Ques24;
-import static com.example.quizapp.params.params.KEY_Ques25;
-import static com.example.quizapp.params.params.KEY_Ques26;
-import static com.example.quizapp.params.params.KEY_Ques27;
-import static com.example.quizapp.params.params.KEY_Ques28;
-import static com.example.quizapp.params.params.KEY_Ques29;
-import static com.example.quizapp.params.params.KEY_Ques3;
-import static com.example.quizapp.params.params.KEY_Ques30;
-import static com.example.quizapp.params.params.KEY_Ques4;
-import static com.example.quizapp.params.params.KEY_Ques5;
-import static com.example.quizapp.params.params.KEY_Ques6;
-import static com.example.quizapp.params.params.KEY_Ques7;
-import static com.example.quizapp.params.params.KEY_Ques8;
-import static com.example.quizapp.params.params.KEY_Ques9;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques22;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques23;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques24;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques25;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques26;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques27;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques28;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques29;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques3;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques30;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques4;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques5;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques6;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques7;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques8;
+import static com.example.Sadhna_Bhakti.params.params.KEY_Ques9;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -41,8 +41,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.example.quizapp.entry.row;
-import com.example.quizapp.params.params;
+import com.example.Sadhna_Bhakti.entry.row;
+import com.example.Sadhna_Bhakti.params.params;
 
 import java.util.ArrayList;
 
@@ -62,7 +62,7 @@ public class DbHandler extends SQLiteOpenHelper {
                 params.KEY_Ques7+" TEXT ,"+params.KEY_Ques8+" TEXT ,"+params.KEY_Ques9+" TEXT ,"+params.KEY_Ques10+" TEXT ,"+
                 params.KEY_Ques11+" TEXT ,"+params.KEY_Ques12+" TEXT ,"+params.KEY_Ques13+" TEXT ,"+params.KEY_Ques14+" TEXT ,"+
                 KEY_Ques15+" TEXT ,"+ KEY_Ques16+" TEXT ,"+ KEY_Ques17+" TEXT ,"+ KEY_Ques18+" TEXT ,"+
-                KEY_Ques19+" TEXT ,"+ KEY_Ques20+" TEXT ,"+" TEXT ,"+ KEY_Ques22+" TEXT ,"+
+                KEY_Ques19+" TEXT ,"+ KEY_Ques20+" TEXT ,"+ KEY_Ques22+" TEXT ,"+
                 KEY_Ques23+" TEXT ,"+ KEY_Ques24+" TEXT ,"+ KEY_Ques25+" TEXT ,"+ KEY_Ques26+" TEXT ,"+
                 KEY_Ques27+" TEXT ,"+ KEY_Ques28+" TEXT ,"+ KEY_Ques29+" TEXT ,"+ KEY_Ques30+" TEXT "+
                 ")";
@@ -97,15 +97,15 @@ public class DbHandler extends SQLiteOpenHelper {
         values.put(KEY_Ques19,contact.getQues19());
         values.put(KEY_Ques20,contact.getQues20());
 
-        values.put(KEY_Ques22,contact.getQues12());
-        values.put(KEY_Ques23,contact.getQues13());
-        values.put(KEY_Ques24,contact.getQues14());
-        values.put(KEY_Ques25,contact.getQues15());
-        values.put(KEY_Ques26,contact.getQues16());
-        values.put(KEY_Ques27,contact.getQues17());
-        values.put(KEY_Ques28,contact.getQues18());
-        values.put(KEY_Ques29,contact.getQues19());
-        values.put(KEY_Ques30,contact.getQues20());
+        values.put(KEY_Ques22,contact.getQues22());
+        values.put(KEY_Ques23,contact.getQues23());
+        values.put(KEY_Ques24,contact.getQues24());
+        values.put(KEY_Ques25,contact.getQues25());
+        values.put(KEY_Ques26,contact.getQues26());
+        values.put(KEY_Ques27,contact.getQues27());
+        values.put(KEY_Ques28,contact.getQues28());
+        values.put(KEY_Ques29,contact.getQues29());
+        values.put(KEY_Ques30,contact.getQues30());
 
         db.insert(params.DB_TABLE_NAME,null,values);
         Log.d("checking to be done","successfully inserted is it ok?");
@@ -376,7 +376,6 @@ public class DbHandler extends SQLiteOpenHelper {
             list.add(c.getString(19));
             list.add(c.getString(20));
 
-            list.add(c.getString(21));
             list.add(c.getString(22));
             list.add(c.getString(23));
             list.add(c.getString(24));

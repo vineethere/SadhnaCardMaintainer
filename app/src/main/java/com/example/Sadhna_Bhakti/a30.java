@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package com.example.Sadhna_Bhakti;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-import com.example.quizapp.data.DbHandler;
+import com.example.Sadhna_Bhakti.data.DbHandler;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

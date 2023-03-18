@@ -12,12 +12,12 @@
         android:id="@+id/Random"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:padding="10dp"
+        android:layout_marginTop="25sp"
+        android:padding="10sp"
         android:text="Sadhana Bhakti"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <TextView
@@ -29,74 +29,55 @@
         android:layout_below="@id/Random"
 
 
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="20sp"
         android:background="#30300303"
-        android:padding="30dp"
-        android:text="Did you read Srila Prabhupada books today? how much time?"
+        android:padding="30sp"
+        android:text="How much time you read Srila Prabhupada books?"
         android:textColor="@color/black"
         android:textColorHint="#FFFFFF"
         android:textSize="24sp"
 
         android:textStyle="italic" />
 
-    <EditText
-        android:id="@+id/min"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="309dp"
-        android:layout_marginEnd="20dp"
-        android:layout_toStartOf="@+id/Login"
-
-        android:backgroundTint="#808080"
-        android:hint="Enter min."
-        android:inputType="number"
-        android:textColorHint="@color/black"
-        android:textSize="14dp" />
 
     <Button
         android:id="@+id/Login"
-        android:layout_width="88dp"
-        android:layout_height="40dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="310dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/Username"
+        android:layout_marginTop="69sp"
+        android:layout_marginEnd="20sp"
+        android:layout_toStartOf="@+id/NO"
         android:backgroundTint="#808080"
         android:inputType="text"
-        android:text="next"
-        android:textSize="18dp" />
-
-    <EditText
-        android:id="@+id/hour"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="310dp"
-        android:layout_marginEnd="20dp"
-        android:layout_toStartOf="@+id/min"
-        android:backgroundTint="#808080"
-        android:hint="Enter hour"
-        android:inputType="number"
-        android:textColorHint="@color/black"
-        android:textSize="14dp" />
+        android:text="next" />
 
     <Button
-        android:id="@+id/No"
-        android:layout_width="88dp"
-        android:layout_height="42dp"
-        android:layout_below="@+id/Login"
+        android:id="@+id/NO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Username"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="13dp"
+        android:layout_marginTop="68sp"
+        android:layout_marginEnd="30sp"
         android:backgroundTint="#808080"
         android:inputType="text"
-        android:text="no"
-        android:textSize="20dp" />
+        android:text="no" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Username"
+        android:layout_marginTop="65sp"
+        android:layout_marginEnd="20sp"
+        android:layout_toStartOf="@+id/Login"
+        android:backgroundTint="#808080"
+        android:hint="type here"
+        android:inputType="text"
+        android:textAlignment="textEnd"
+        android:textColorHint="@color/black" />
 
 
 </RelativeLayout>

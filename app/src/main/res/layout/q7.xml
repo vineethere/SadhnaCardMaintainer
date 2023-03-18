@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:textAlignment="textEnd"
     tools:context=".a7">
 
 
@@ -12,25 +13,22 @@
         android:id="@+id/Random"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:padding="10dp"
+        android:layout_marginTop="25sp"
+        android:padding="10sp"
         android:text="Sadhana Bhakti"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/Username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_below="@id/Random"
-
-
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="20sp"
         android:background="#30300303"
-        android:padding="30dp"
+        android:padding="30sp"
         android:text="How many rounds of japa you did before mangal aarti?"
         android:textColor="@color/black"
         android:textColorHint="#FFFFFF"
@@ -41,41 +39,39 @@
 
     <EditText
         android:id="@+id/Password"
-        android:layout_width="140dp"
-        android:layout_height="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/Username"
 
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="58sp"
+        android:layout_marginEnd="10sp"
         android:layout_toStartOf="@+id/login"
         android:backgroundTint="#808080"
         android:hint="type here"
         android:inputType="number"
+        android:textAlignment="textEnd"
         android:textColorHint="@color/black" />
 
     <Button
         android:id="@+id/zero"
-        android:layout_width="55dp"
+        android:layout_width="54sp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Username"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="58sp"
+        android:layout_marginEnd="20sp"
         android:layout_toStartOf="@+id/Password"
         android:backgroundTint="#808080"
         android:text="0"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/login"
-
-        android:layout_width="100dp"
-        android:layout_height="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/Username"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="58sp"
+        android:layout_marginEnd="40sp"
         android:backgroundTint="#808080"
         android:inputType="text"
         android:text="next" />

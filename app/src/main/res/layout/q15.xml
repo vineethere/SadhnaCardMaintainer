@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="@color/white"
-
     tools:context=".a15">
 
 
@@ -14,57 +12,51 @@
         android:id="@+id/Random"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:padding="10dp"
+        android:layout_marginTop="25sp"
+        android:padding="10sp"
         android:text="Sadhana Bhakti"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/Username"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_below="@id/Random"
-
-
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="20sp"
         android:background="#30300303"
-        android:padding="30dp"
+        android:padding="30sp"
         android:text="Did you distributed prasadam to public  or in mealtime?"
 
         android:textColor="@color/black"
         android:textColorHint="#FFFFFF"
         android:textSize="24sp"
-
         android:textStyle="italic" />
 
     <Button
-        android:id="@+id/No"
-        android:layout_width="90dp"
-        android:layout_height="40dp"
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/Username"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="99dp"
-        android:layout_marginEnd="95dp"
+        android:layout_marginTop="99sp"
+        android:layout_marginEnd="60sp"
         android:backgroundTint="#808080"
         android:inputType="text"
         android:text="no" />
 
     <Button
         android:id="@+id/yes"
-        android:layout_width="90dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/Username"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="59dp"
-        android:layout_toStartOf="@+id/No"
+        android:layout_marginTop="99sp"
+        android:layout_marginEnd="40sp"
+        android:layout_toStartOf="@+id/no"
         android:backgroundTint="#808080"
         android:inputType="text"
         android:text="yes" />
-
 
 </RelativeLayout>

@@ -3,12 +3,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_alarm.xml" value="0.2" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_index.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_pdffinal.xml" value="0.21105072463768115" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_pdfviewer.xml" value="0.2" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q3.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q7.xml" value="0.10461956521739131" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q9.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_word_generator.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q1.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q10.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q11.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q12.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q13.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q14.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q15.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q16.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q17.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q18.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q19.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q2.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q20.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q21.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q22.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q23.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q24.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q25.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q26.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q27.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q28.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q29.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q3.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q30.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q4.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q5.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q6.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q7.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q8.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/layout/q9.xml" value="0.2" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/QuizApp/app/src/main/res/xml/file_path.xml" value="0.14583333333333334" />
       </map>
     </option>

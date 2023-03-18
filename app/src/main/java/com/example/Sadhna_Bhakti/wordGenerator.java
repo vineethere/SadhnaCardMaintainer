@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package com.example.Sadhna_Bhakti;
 
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
@@ -25,7 +25,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 
-import com.example.quizapp.data.DbHandler;
+import com.example.Sadhna_Bhakti.data.DbHandler;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -63,7 +63,7 @@ public class wordGenerator extends AppCompatActivity {
         edate=findViewById(R.id.edate);
         generate=findViewById(R.id.generate);
         Calendar calendar=Calendar.getInstance();
-        final int day=calendar.get(Calendar.DAY_OF_MONTH);
+        final int day=calendar.get(Calendar.DAY_OF_MONTH);    
         final int month=calendar.get(Calendar.MONTH);
         final int year=calendar.get(Calendar.YEAR);
         sdate.setOnClickListener(new View.OnClickListener() {
@@ -206,6 +206,7 @@ public class wordGenerator extends AppCompatActivity {
                         "Did you meditate on shloka, bhajan or what you heard in class today?",
                         "How long you read Krishna book in night?",
                         "Did you associate with other devotees today?",
+                        //-----------------------------------
                         "How long did you chant with other devotees?",
                         "Did you eat prasadam cooked and offered by devotees?",
                         "Did you eat anything from outside not cooked by devotees?",

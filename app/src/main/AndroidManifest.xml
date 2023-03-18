@@ -1,141 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.quizapp">
+    package="com.example.Sadhna_Bhakti" >
+
     <uses-permission
         android:name="android.permission.QUERY_ALL_PACKAGES"
         tools:ignore="QueryAllPackagesPermission" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/back"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/back"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
-            android:name=".index"
+            android:name="com.example.Sadhna_Bhakti.alarm"
             android:exported="false" />
         <activity
-            android:name=".wordGenerator"
+            android:name="com.example.Sadhna_Bhakti.index"
             android:exported="false" />
         <activity
-            android:name=".pdfviewer"
+            android:name="com.example.Sadhna_Bhakti.wordGenerator"
             android:exported="false" />
         <activity
-            android:name=".a30"
+            android:name="com.example.Sadhna_Bhakti.pdfviewer"
             android:exported="false" />
         <activity
-            android:name=".a29"
+            android:name="com.example.Sadhna_Bhakti.a30"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Sadhna_Bhakti.a29"
             android:exported="true" />
         <activity
-            android:name=".a28"
+            android:name="com.example.Sadhna_Bhakti.a28"
             android:exported="true" />
         <activity
-            android:name=".a27"
+            android:name="com.example.Sadhna_Bhakti.a27"
             android:exported="true" />
         <activity
-            android:name=".a26"
+            android:name="com.example.Sadhna_Bhakti.a26"
             android:exported="true" />
         <activity
-            android:name=".a25"
+            android:name="com.example.Sadhna_Bhakti.a25"
             android:exported="true" />
         <activity
-            android:name=".a24"
+            android:name="com.example.Sadhna_Bhakti.a24"
             android:exported="true" />
         <activity
-            android:name=".a23"
+            android:name="com.example.Sadhna_Bhakti.a23"
             android:exported="true" />
         <activity
-            android:name=".a22"
+            android:name="com.example.Sadhna_Bhakti.a22"
+            android:exported="true" />
+
+        <activity
+            android:name="com.example.Sadhna_Bhakti.a20"
             android:exported="true" />
         <activity
-            android:name=".a21"
+            android:name="com.example.Sadhna_Bhakti.a19"
             android:exported="true" />
         <activity
-            android:name=".a20"
+            android:name="com.example.Sadhna_Bhakti.a18"
             android:exported="true" />
         <activity
-            android:name=".a19"
+            android:name="com.example.Sadhna_Bhakti.a17"
             android:exported="true" />
         <activity
-            android:name=".a18"
+            android:name="com.example.Sadhna_Bhakti.a16"
             android:exported="true" />
         <activity
-            android:name=".a17"
+            android:name="com.example.Sadhna_Bhakti.a15"
             android:exported="true" />
         <activity
-            android:name=".a16"
+            android:name="com.example.Sadhna_Bhakti.a14"
             android:exported="true" />
         <activity
-            android:name=".a15"
+            android:name="com.example.Sadhna_Bhakti.a13"
             android:exported="true" />
         <activity
-            android:name=".a14"
+            android:name="com.example.Sadhna_Bhakti.a12"
             android:exported="true" />
         <activity
-            android:name=".a13"
+            android:name="com.example.Sadhna_Bhakti.a11"
             android:exported="true" />
         <activity
-            android:name=".a12"
+            android:name="com.example.Sadhna_Bhakti.a10"
             android:exported="true" />
         <activity
-            android:name=".a11"
+            android:name="com.example.Sadhna_Bhakti.a9"
             android:exported="true" />
         <activity
-            android:name=".a10"
+            android:name="com.example.Sadhna_Bhakti.a8"
             android:exported="true" />
         <activity
-            android:name=".a9"
+            android:name="com.example.Sadhna_Bhakti.a7"
             android:exported="true" />
         <activity
-            android:name=".a8"
+            android:name="com.example.Sadhna_Bhakti.a6"
             android:exported="true" />
         <activity
-            android:name=".a7"
+            android:name="com.example.Sadhna_Bhakti.a5"
             android:exported="true" />
         <activity
-            android:name=".a6"
+            android:name="com.example.Sadhna_Bhakti.a4"
             android:exported="true" />
         <activity
-            android:name=".a5"
+            android:name="com.example.Sadhna_Bhakti.a3"
             android:exported="true" />
         <activity
-            android:name=".a4"
+            android:name="com.example.Sadhna_Bhakti.a1"
             android:exported="true" />
         <activity
-            android:name=".a3"
+            android:name="com.example.Sadhna_Bhakti.a2"
             android:exported="true" />
         <activity
-            android:name=".a1"
-            android:exported="true" />
-        <activity
-            android:name=".a2"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name="com.example.Sadhna_Bhakti.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name="com.example.Sadhna_Bhakti.AlarmReceiver" />
+        <receiver
+            android:name="com.example.Sadhna_Bhakti.BootReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
             android:exported="false"
-            android:grantUriPermissions="true">
+            android:grantUriPermissions="true" >
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_path" />
         </provider>
     </application>
-
 </manifest>

@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.app.quizapp"
+        applicationId "com.app.Sadhna_Bhakti"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -16,6 +16,29 @@ android {
     packagingOptions {
         exclude 'com/itextpdf/io/font/cmap_info.txt'
         exclude 'com/itextpdf/io/font/cmap/*'
+            exclude 'AndroidManifest.xml'
+            exclude 'lib/arm64-v8a/libcardioDecider.so'
+            exclude 'lib/arm64-v8a/libcardioRecognizer.so'
+            exclude 'lib/arm64-v8a/libcardioRecognizer_tegra2.so'
+            exclude 'lib/arm64-v8a/libopencv_core.so'
+            exclude 'lib/arm64-v8a/libopencv_imgproc.so'
+            exclude 'lib/armeabi/libcardioDecider.so'
+            exclude 'lib/armeabi-v7a/libcardioDecider.so'
+            exclude 'lib/armeabi-v7a/libcardioRecognizer.so'
+            exclude 'lib/armeabi-v7a/libcardioRecognizer_tegra2.so'
+            exclude 'lib/armeabi-v7a/libopencv_core.so'
+            exclude 'lib/armeabi-v7a/libopencv_imgproc.so'
+            exclude 'lib/mips/libcardioDecider.so'
+            exclude 'lib/x86/libcardioDecider.so'
+            exclude 'lib/x86/libcardioRecognizer.so'
+            exclude 'lib/x86/libcardioRecognizer_tegra2.so'
+            exclude 'lib/x86/libopencv_core.so'
+            exclude 'lib/x86/libopencv_imgproc.so'
+            exclude 'lib/x86_64/libcardioDecider.so'
+            exclude 'lib/x86_64/libcardioRecognizer.so'
+            exclude 'lib/x86_64/libcardioRecognizer_tegra2.so'
+            exclude 'lib/x86_64/libopencv_core.so'
+            exclude 'lib/x86_64/libopencv_imgproc.so'
     }
 
 
@@ -35,22 +58,18 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-
     implementation 'com.google.android.gms:play-services-auth:20.1.0'
     implementation 'androidx.navigation:navigation-fragment:2.4.1'
     implementation 'androidx.navigation:navigation-ui:2.4.1'
-
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.8.1'
     testImplementation 'junit:junit:'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-
-//    implementation 'com.ajts.androidmads.SQLite2Excel:library:1.0.2'
     implementation 'com.itextpdf:itextg:5.5.10'
-//    implementation 'com.ajts.androidmads.SQLite2Excel:library:1.0.2'
     implementation 'org.apache.poi:poi:4.0.0'
     implementation 'org.apache.poi:poi-ooxml:4.0.0'
+    implementation "androidx.work:work-runtime:2.7.0"
 }

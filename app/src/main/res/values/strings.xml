@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">QuizApp</string>
+    <string name="app_name">Sadhna Bhakti</string>
+    <!-- Strings used for fragments for navigation -->
+
 </resources>

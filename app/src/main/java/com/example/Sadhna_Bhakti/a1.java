@@ -1,4 +1,4 @@
-package com.example.quizapp;
+package com.example.Sadhna_Bhakti;
 
 import android.app.TimePickerDialog;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
-import  com.example.quizapp.data.DbHandler;
+import  com.example.Sadhna_Bhakti.data.DbHandler;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

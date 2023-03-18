@@ -9,23 +9,23 @@
 
     <Button
         android:id="@+id/create"
-        android:layout_width="281dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/select"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="182dp"
-        android:layout_marginEnd="55dp"
+        android:layout_alignStart="@+id/select"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="104sp"
         android:text="view/download pdf"
-        android:textSize="14dp" />
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/select"
-        android:layout_width="247dp"
-        android:layout_height="54dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="175sp"
         android:text="Click here to select date"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 </RelativeLayout>
